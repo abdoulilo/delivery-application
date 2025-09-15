@@ -1,5 +1,6 @@
 from django.urls import path
+from .views import me
 
 urlpatterns = [
-    # we'll add endpoints later
+    path('me/', me),
 ]
